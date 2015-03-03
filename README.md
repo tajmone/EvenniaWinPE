@@ -12,7 +12,7 @@ Evennia homepage: <http://www.evennia.com/>
 
 Evennia on GitHub: <https://github.com/evennia/evennia>
 
-> NOTE: Beta 2 includes the major March update of Evennia (o.5.0). This new release of Evennia brings important changes to Evennia in code and structure, breaking backwards compatibility to some extent—migration of old code only requires some simple tweaks on the user side though! For more information read:
+> NOTE: Beta 2 includes the major March update of Evennia (0.5.0). This new release of Evennia brings important changes to Evennia in code and structure, breaking backwards compatibility to some extent—migration of old code only requires some simple tweaks on the user side though! For more information read:
 
 > <https://groups.google.com/forum/#!topic/evennia/6ug7m872GIk>
 
