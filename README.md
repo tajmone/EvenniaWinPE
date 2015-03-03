@@ -1,8 +1,8 @@
 # EvenniaWinPE
 
-Beta 1 :: 19th Feb 2015
+Beta 2 :: 3rd March 2015 ( Evennia 0.5.0 )
 
-Size on disk: 214Mb
+Size on disk: 215Mb (zipped 40mb)
 
 Runs out of the box on Windows 32/64bit
 
@@ -11,6 +11,12 @@ Tested on Win7 64bit (should work with XP SP3, not sure about earlier versions o
 Evennia homepage: <http://www.evennia.com/>
 
 Evennia on GitHub: <https://github.com/evennia/evennia>
+
+> NOTE: Beta 2 includes the major March update of Evennia (o.5.0). This new release of Evennia brings important changes to Evennia in code and structure, breaking backwards compatibility to some extent—migration of old code only requires some simple tweaks on the user side though! For more information read:
+
+> <https://groups.google.com/forum/#!topic/evennia/6ug7m872GIk>
+
+> <https://groups.google.com/forum/#!topic/evennia/RDYoDUuxcWI>
 
 ## Evennia for Windows Portable Edition
 
@@ -44,7 +50,7 @@ All features have been kept as close as possible to Evennia's adviced settings (
 
 ### Packages versions
 
--   Evennia as of 19th Feb 2015
+-   Evennia 0.5.0 ( as of 3rd March 2015 )
 
 -   PortablePython 2.7.6.1
 
@@ -54,7 +60,7 @@ All features have been kept as close as possible to Evennia's adviced settings (
 
     -   virtualenv 12.0.7
 
--   Django 1.7.4
+-   Django 1.7.5
 
     -   Pillow 2.7.0
 
@@ -94,13 +100,13 @@ It could. Depending on the privileges you own on the system, its configuration a
 
 No, unfortunately it has to be placed in the root of drive "C:"; otherwise it's going to "break" (no risks for the host computer, it simply won't start). There are various reasons for this, amongst them the fact that I didn't want to spent weeks setting it up for working with relative paths (it might be achivable, but it also might breakup if you update Python packages afterwards). It might seem a bit of a take-it-or-leave-it situation, but there is no reason why you shouldn't unzpit in drive C. When you're done with EvenniaWinPE you only have to trash away its folder; it won't leave any garbage behind. Another reason has to do with the differences amongst the various MS Windows versions. I wanted to make sure that EvenniaWinPE would run on older 32bit versions of Windows (XP, maybe even NT) as well as Win7/8 64bit.
 
-**Why is it in Alpha? Is it buggy/unsafe?**
+**Why is it in Beta? Is it buggy/unsafe?**
 
-Could a derivate of an alpha software ever be in final release? Since Evennia is still in Alpha stage EvenniaWinPE is also in Alpha. Even though Evennia is mature (and well documented) enough to be employed in actual projects; its author might introduce at any time major changes that could conflict with this edition of EvenniaWinPE, making it unusable in the future. Apart from this, soo far all tests with EvenniaWinPE went well. But more feedback from users is needed before making big promises.
+Could a derivate of a beta software ever be in final release? Since Evennia is still in Beta stage EvenniaWinPE is also in Beta. Even though Evennia is mature (and well documented) enough to be employed in actual projects; its author might introduce at any time major changes that could conflict with this edition of EvenniaWinPE, making it unusable in the future. Apart from this, soo far all tests with EvenniaWinPE went well. But more feedback from users is needed before making big promises.
 
 **Does EvenniaWinPE self update?**
 
-No, it doesn't. But since all you need to update is the Envennia folder, you can easily track updates from GitHub via Git for Windows (also available in portable format). Updating your local Evennia files works just like with any other Evennia installation. Consult Evennia's Wiki on this topic. As for EvenniaWinPE's specific files, future updateds (if any) might come as patches (to be unzipped on top of your pre-existing local copy). Just be aware that if you decide to Git both EvenniaWinPE *and* the copy of Evennia it contains inside, you'll be dealing with nested Gits (submodules). EvenniaWinPE's internal copy of Evennia's repository is *not* gitted by default!
+No, it doesn't (yet!). But since all you need to update is the Envennia folder, you can easily track updates from GitHub via Git for Windows (also available in portable format). Updating your local Evennia files works just like with any other Evennia installation. Consult Evennia's Wiki on this topic. As for EvenniaWinPE's specific files, future updateds (if any) might come as patches (to be unzipped on top of your pre-existing local copy). Just be aware that if you decide to Git both EvenniaWinPE *and* the copy of Evennia it contains inside, you'll be dealing with nested Gits (submodules). EvenniaWinPE's internal copy of Evennia's repository is *not* gitted by default!
 
 **What MUD will I find inside EvenniaWinPE?**
 
