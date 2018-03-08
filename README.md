@@ -1,6 +1,12 @@
+> _**OBSOLESCENCE WARNING**_  — This project is way to old (__2015__); it has been archived and kept for historical purposes only. Evennia has changed a lot since the creation of this portable version, therefore the bundled version included in this repo is no longer representattive of Evennia's current state. It's not even guaranteed to work out-of-the-box any longer, but you might have a got at it if you're curious to try.
+> 
+> The [Portable Python] used in the creation of this package is no longer maintained, it stopped at Python `v2.7.6.1`; this was one of the main reasons why this project was never updated. If you're interested in creating an up-to-date portable Evennia distribution, you might reuse some of the resources I've created for this project.
+
+[Portable Python]: http://portablepython.com/
+
 # EvenniaWinPE
 
-Beta 2 :: 3rd March 2015 ( Evennia 0.5.0 )
+    Beta 2 :: 3rd March 2015 ( Evennia 0.5.0 )
 
 Size on disk: 215Mb (zipped 40mb)
 
@@ -13,10 +19,31 @@ Evennia homepage: <http://www.evennia.com/>
 Evennia on GitHub: <https://github.com/evennia/evennia>
 
 > NOTE: Beta 2 includes the major March update of Evennia (0.5.0). This new release of Evennia brings important changes to Evennia in code and structure, breaking backwards compatibility to some extent—migration of old code only requires some simple tweaks on the user side though! For more information read:
-
+>
 > <https://groups.google.com/forum/#!topic/evennia/6ug7m872GIk>
-
+>
 > <https://groups.google.com/forum/#!topic/evennia/RDYoDUuxcWI>
+
+
+-----
+
+**Table of Contents**
+
+<!-- MarkdownTOC autolink="true" bracket="round" autoanchor="false" lowercase="true" lowercase_only_ascii="true" uri_encoding="true" depth="3" -->
+
+- [Evennia for Windows Portable Edition](#evennia-for-windows-portable-edition)
+- [Why Portable?](#why-portable)
+- [Features](#features)
+    - [Packages versions](#packages-versions)
+    - [Functionalities](#functionalities)
+- [FAQ](#faq)
+- [License](#license)
+
+<!-- /MarkdownTOC -->
+
+-----
+
+
 
 ## Evennia for Windows Portable Edition
 
